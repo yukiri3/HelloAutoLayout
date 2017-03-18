@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEB020671E7D1D5F00370D7B /* title_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB020661E7D1D5F00370D7B /* title_icon.png */; };
 		CEEC09DA1E7A57DA0074DA63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC09D91E7A57DA0074DA63 /* AppDelegate.swift */; };
 		CEEC09DC1E7A57DA0074DA63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC09DB1E7A57DA0074DA63 /* ViewController.swift */; };
 		CEEC09DF1E7A57DA0074DA63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEC09DD1E7A57DA0074DA63 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CEB020661E7D1D5F00370D7B /* title_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_icon.png; sourceTree = "<group>"; };
 		CEEC09D61E7A57DA0074DA63 /* HelloAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEC09D91E7A57DA0074DA63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEEC09DB1E7A57DA0074DA63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		CEEC09D81E7A57DA0074DA63 /* HelloAutoLayout */ = {
 			isa = PBXGroup;
 			children = (
+				CEB020661E7D1D5F00370D7B /* title_icon.png */,
 				CEEC09D91E7A57DA0074DA63 /* AppDelegate.swift */,
 				CEEC09DB1E7A57DA0074DA63 /* ViewController.swift */,
 				CEEC09DD1E7A57DA0074DA63 /* Main.storyboard */,
@@ -127,6 +130,7 @@
 				CEEC09E41E7A57DA0074DA63 /* LaunchScreen.storyboard in Resources */,
 				CEEC09E11E7A57DA0074DA63 /* Assets.xcassets in Resources */,
 				CEEC09DF1E7A57DA0074DA63 /* Main.storyboard in Resources */,
+				CEB020671E7D1D5F00370D7B /* title_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +304,7 @@
 				CEEC09EA1E7A57DA0074DA63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
